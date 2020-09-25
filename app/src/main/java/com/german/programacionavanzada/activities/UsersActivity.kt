@@ -25,6 +25,7 @@ class UsersActivity : AppCompatActivity(), UsersListFragment.OnShowUserDetailLis
     override fun showUserDetail(name: String) {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, UserDetailFragment.newInstance(name))
+            .addToBackStack(null)
             .commit()
     }
 }
