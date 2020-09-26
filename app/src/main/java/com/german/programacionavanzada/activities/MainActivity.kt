@@ -21,5 +21,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, UsersActivity::class.java)
             startActivity(intent)
         }
+
+        btn_notifications.setOnClickListener {
+            startActivity(Intent(this, NotificationsActivity::class.java))
+        }
+
+        btn_temporizador.setOnClickListener {
+            startActivity(Intent(this, TemporizadorActivity::class.java))
+        }
     }
 }

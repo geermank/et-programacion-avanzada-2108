@@ -18,4 +18,16 @@
         android:layout_height="wrap_content"
         android:text="Lista de usuarios"/>
 
+    <Button
+        android:id="@+id/btn_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones"/>
+
+    <Button
+        android:id="@+id/btn_temporizador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temporizador"/>
+
 </LinearLayout>
