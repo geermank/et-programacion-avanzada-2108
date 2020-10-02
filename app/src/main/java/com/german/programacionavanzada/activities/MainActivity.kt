@@ -29,5 +29,9 @@ class MainActivity : AppCompatActivity() {
         btn_temporizador.setOnClickListener {
             startActivity(Intent(this, TemporizadorActivity::class.java))
         }
+
+        btn_battery_receiver.setOnClickListener {
+            startActivity(Intent(this, BroadcastActivity::class.java))
+        }
     }
 }
