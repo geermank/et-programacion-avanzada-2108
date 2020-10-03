@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.BroadcastActivity"></activity>
+        <activity android:name=".activities.AlarmsActivity"></activity>
+        <activity android:name=".activities.BroadcastActivity" />
         <activity android:name=".activities.TemporizadorActivity" />
         <activity android:name=".activities.NotificationsActivity" />
         <activity android:name=".activities.AsyncTaskActivity" />

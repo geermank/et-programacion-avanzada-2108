@@ -33,5 +33,9 @@ class MainActivity : AppCompatActivity() {
         btn_battery_receiver.setOnClickListener {
             startActivity(Intent(this, BroadcastActivity::class.java))
         }
+
+        btn_alarms.setOnClickListener {
+            startActivity(Intent(this, AlarmsActivity::class.java))
+        }
     }
 }
